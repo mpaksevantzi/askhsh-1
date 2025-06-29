@@ -1,0 +1,5 @@
+import pandas as pd
+import xgboost as xgb
+import numpy as np
+bookings=pd.read_csv('hotel_bookings_clean.csv')
+bookings.info()
